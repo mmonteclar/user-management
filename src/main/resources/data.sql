@@ -1,0 +1,11 @@
+--insert into User (user_id, title, firstn, lastname, gender, street, city, state, postcode) values ('Mrs','Christine','Hunter', 'Female', 'Buller Road', 'Sydney','NSW','2064');
+--insert into User (user_id, title, firstn, lastname, gender, street, city, state, postcode) values ('Mr','John','Digger', 'Male', 'Francis Road', 'Sydney','NSW','2064');
+--insert into User (user_id, title, firstn, lastname, gender, street, city, state, postcode) values (3,\'Mrs','Jane','Austin', 'Female', 'Sydenham Road', 'Melbourne','Vic','2064');
+--insert into User (user_id, title, firstn, lastname, gender, street, city, state, postcode) values (4,'Mr','Chris','Go', 'Male', 'Buller Road', 'Sydney','NSW','2064');
+--insert into User (user_id, title, firstn, lastname, gender, street, city, state, postcode) values (5,'Mr','Chuckie','Lamb', 'Male', 'Buller Road', 'Sydney','NSW','2064');
+
+insert into User (id, user_id, title, firstn, lastname, gender, address_Street, address_City, address_State, address_Postcode) values (nextval('hibernate_sequence'), 1, 'Mrs','Christine','Hunter', 'Female', 'Buller Road', 'Sydney','NSW',2064);
+insert into User (id, user_id, title, firstn, lastname, gender, address_Street, address_City, address_State, address_Postcode) values (nextval('hibernate_sequence'), 2,'Mr','John','Digger', 'Male', 'Francis Road', 'Sydney','NSW',2064);
+insert into User (id, user_id, title, firstn, lastname, gender, address_Street, address_City, address_State, address_Postcode) values (nextval('hibernate_sequence'), 3,'Mrs','Jane','Austin', 'Female', 'Sydenham Road', 'Melbourne','Vic',2064);
+insert into User (id, user_id, title, firstn, lastname, gender, address_Street, address_City, address_State, address_Postcode) values (nextval('hibernate_sequence'), 4,'Mr','Chris','Go', 'Male', 'Buller Road', 'Sydney','NSW',2064);
+insert into User (id, user_id, title, firstn, lastname, gender, address_Street, address_City, address_State, address_Postcode) values (nextval('hibernate_sequence'), 5,'Mr','Chuckie','Lamb', 'Male', 'Buller Road', 'Sydney','NSW',2064);
